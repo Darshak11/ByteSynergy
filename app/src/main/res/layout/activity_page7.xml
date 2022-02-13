@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2022_02_13_at_9_21_14_pm"
+    tools:context=".Page7">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="321dp"
+        android:layout_height="458dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="196dp"
+        android:background="@color/white"
+        android:backgroundTint="#61EAE7E7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="178dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Contact Details"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:backgroundTint="#973474D5" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="250dp"
+            android:layout_height="305dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/button"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Saketh Gajawada\n+919440822520\n\nDarshak Jivrajani\n+917990915596\n\nBhuvan Jayam\n+918639581349\n\nAsmita Zjigyasu\n+918287191437"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:backgroundTint="#9794DDAF" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

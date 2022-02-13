@@ -17,7 +17,7 @@ public class DAOseller {
     {
         return dr.push().setValue(s);
     }
-    public Task<Void> update(String key, HashMap<String, Object> hashMap){
+    public Task<Void> update(String key, HashMap<String, Object> hashMap) {
         return dr.child(key).updateChildren(hashMap);
     }
     public Task<Void> remove(String key)

@@ -27,6 +27,7 @@
             android:background="@drawable/button"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Name"
+            android:gravity="center"
             android:textAlignment="center"
             android:textSize="22sp"
             app:backgroundTint="#973474D5" />
@@ -109,6 +110,7 @@
             android:inputType="phone" />
 
     </androidx.cardview.widget.CardView>
+
     <Button
         android:id="@+id/button5"
         android:layout_width="150dp"
@@ -118,7 +120,7 @@
         android:background="@drawable/button"
         android:backgroundTint="#579E5B0B"
         android:text="Continue"
-        app:backgroundTint="#B0C66C2E"
+        app:backgroundTint="#E1065681"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

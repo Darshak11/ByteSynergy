@@ -1,17 +1,21 @@
 package com.example.myapplication;
 
-public class Buyer {
+import java.io.Serializable;
+
+public class Buyer implements Serializable {
     private String name;
     private String phno;
     private String crop;
     private String qua;
     private Seller info;
     public Buyer(){}
-    public Buyer(String name, String phno, String crop, String qua) {
+
+    public Buyer(String name, String phno, String crop, String qua, Seller info) {
         this.name = name;
         this.phno = phno;
         this.crop = crop;
         this.qua = qua;
+        this.info = info;
     }
 
     public String getName() {

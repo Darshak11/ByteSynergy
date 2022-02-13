@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Page9"
+            android:exported="false" />
+        <activity
+            android:name=".Page8"
+            android:exported="false" />
+        <activity
+            android:name=".Page7"
+            android:exported="false" />
+        <activity
             android:name=".Page6"
             android:exported="false" />
         <activity

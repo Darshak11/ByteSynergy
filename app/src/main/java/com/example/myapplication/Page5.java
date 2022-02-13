@@ -30,14 +30,7 @@ public class Page5 extends AppCompatActivity {
         Button bt = findViewById(R.id.button5);
         bt.setEnabled(false);
         DAOseller dao=new DAOseller();
-        while(true)
-        {
-            if(!name.getText().toString().matches("") && !number.getText().toString().matches(""))
-            {
-                bt.setEnabled(true);
-                break;
-            }
-        }
+        bt.setEnabled(true);
         bt.setOnClickListener(v->{
             Seller s = new Seller(name.getText().toString(),number.getText().toString(),dropdown.getSelectedItem().toString(),dropdown2.getSelectedItem().toString());
             dao.add(s).addOnCompleteListener(suc->{

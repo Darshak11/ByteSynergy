@@ -2,7 +2,9 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -103,5 +105,15 @@ public class Page4 extends AppCompatActivity {
         bt1.setText(crops.get(month).get(1));
         bt2.setText(crops.get(month).get(2));
         bt3.setText(crops.get(month).get(3));
+        bt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openPage9();
+            }
+        });
+    }
+    public void openPage9() {
+        Intent intent = new Intent(this, Page9.class);
+        startActivity(intent);
     }
 }

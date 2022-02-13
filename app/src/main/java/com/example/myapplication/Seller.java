@@ -1,6 +1,8 @@
 package com.example.myapplication;
 
-public class Seller {
+import java.io.Serializable;
+
+public class Seller implements Serializable {
     private String name;
     private String phno;
     private String crop;

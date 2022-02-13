@@ -13,7 +13,7 @@ import java.util.Calendar;
 
 public class Page3 extends AppCompatActivity
 {
-    Button bt1,bt2,bt3;
+    Button bt1,bt2,bt3,bt4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,7 @@ public class Page3 extends AppCompatActivity
         bt1=findViewById(R.id.button2);
         bt2=findViewById(R.id.button);
         bt3=findViewById(R.id.button3);
+        bt4=findViewById(R.id.button4);
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,6 +36,19 @@ public class Page3 extends AppCompatActivity
                 openPage5();
             }
         });
+        bt3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openPage6();
+            }
+        });
+        bt4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openPage7();
+            }
+        });
+
     }
     public void openPage3() {
         Intent intent = new Intent(this, Page4.class);
@@ -44,5 +58,12 @@ public class Page3 extends AppCompatActivity
         Intent intent = new Intent(this, Page5.class);
         startActivity(intent);
     }
-
+    public void openPage6() {
+        Intent intent = new Intent(this, Page6.class);
+        startActivity(intent);
+    }
+    public void openPage7() {
+        Intent intent = new Intent(this, Page7.class);
+        startActivity(intent);
+    }
 }

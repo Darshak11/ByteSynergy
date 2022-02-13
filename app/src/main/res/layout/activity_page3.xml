@@ -9,8 +9,9 @@
 
 
     <androidx.cardview.widget.CardView
-        android:layout_width="320dp"
-        android:layout_height="311dp"
+        android:id="@+id/cardView2"
+        android:layout_width="310dp"
+        android:layout_height="315dp"
         android:layout_centerInParent="true"
         android:layout_marginStart="44dp"
         android:layout_marginBottom="308dp"
@@ -53,5 +54,18 @@
             app:backgroundTint="#B0C66C2E" />
 
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="211dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/button"
+        android:backgroundTint="#579E5B0B"
+        android:text="Contact Experts"
+        app:backgroundTint="#B0C66C2E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
