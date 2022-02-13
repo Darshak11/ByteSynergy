@@ -32,7 +32,7 @@
         android:background="@drawable/button"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
-        android:text="Seed Price: Rs.150/Kg \nSelling Price in Market: Rs.18/Kg \nSeed Website: \nhttps://www.indiamart.com/sri-vinayaka-agro-seeds/?pos=13&kwd=maize%20seeds&tags=|||Loc|0||product"
+        android:text="Seed Price: Rs.150/Kg \nSelling Price in Market: Rs.18/Kg \nSeed Website: \nhttps://www.indiamart.com/sri-vinayaka-agro-seeds/?pos=13&amp;kwd=maize%20seeds&amp;tags=|||Loc|0||product"
         android:textAlignment="center"
         android:textSize="20sp"
         app:backgroundTint="#9794DDAF"

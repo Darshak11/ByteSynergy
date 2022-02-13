@@ -105,7 +105,7 @@ public class Page4 extends AppCompatActivity {
         bt1.setText(crops.get(month).get(1));
         bt2.setText(crops.get(month).get(2));
         bt3.setText(crops.get(month).get(3));
-        bt2.setOnClickListener(new View.OnClickListener() {
+        bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openPage9();

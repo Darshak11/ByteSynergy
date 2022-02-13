@@ -18,6 +18,7 @@ import java.util.ArrayList;
 
 public class Page8 extends AppCompatActivity {
     Buyer temp;
+    Button bt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
