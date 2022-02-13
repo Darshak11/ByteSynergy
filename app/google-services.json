@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485281437018",
+    "project_id": "amlin-app",
+    "storage_bucket": "amlin-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485281437018:android:e9e60e737d2d9634a84f63",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485281437018-9kl0pvn2fsf8h3j1ncu3pci27sgsd4ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaCijYnSREWwOczqY1Jm4Ts265Xq1WvZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485281437018-9kl0pvn2fsf8h3j1ncu3pci27sgsd4ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

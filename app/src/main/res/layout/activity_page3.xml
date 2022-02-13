@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/group_2"
+    android:background="@drawable/when_you_give_option_of_select_crop__sell_crop__buy_crop"
     tools:context=".Page3">
 
 
@@ -24,10 +24,10 @@
             android:layout_width="211dp"
             android:layout_height="72dp"
             android:layout_marginStart="55dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/button"
             android:backgroundTint="#579E5B0B"
-            android:text="Button"
+            android:text="For Production"
             app:backgroundTint="#B0C66C2E" />
 
         <Button
@@ -35,38 +35,23 @@
             android:layout_width="211dp"
             android:layout_height="72dp"
             android:layout_marginStart="55dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="120dp"
             android:background="@drawable/button"
             android:backgroundTint="#A49E5B0B"
-            android:text="Button"
-            app:backgroundTint="#B0C66C2E"  />
+            android:text="Sell crop"
+            app:backgroundTint="#B0C66C2E" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="211dp"
             android:layout_height="72dp"
             android:layout_marginStart="55dp"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="210dp"
             android:background="@drawable/button"
             android:backgroundTint="#A49E5B0B"
-            android:text="Button"
+            android:text="buy crop"
             app:backgroundTint="#B0C66C2E" />
 
     </androidx.cardview.widget.CardView>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="280dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="35dp"
-        android:background="#6670C1C8"
-        android:fontFamily="sans-serif-smallcaps"
-        android:text="TextView"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
